@@ -1,0 +1,26 @@
+# IDE & System
+.idea/
+out/
+.vscode/
+.DS_Store
+*.class
+
+# Build System
+target/
+
+# Deep Learning Weights (CRITICAL)
+*.bin
+*.model
+*.weights
+transformer_v3.bin
+
+# Dataset & Cache
+# We keep the tokenizer JSON, but ignore the massive raw data and token cache
+/data/cache/
+*.csv
+*.txt
+!bpe_tokenizer_v3.json
+
+# Local persistence
+*.db
+/logs/

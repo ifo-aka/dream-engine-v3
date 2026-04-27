@@ -58,12 +58,3 @@ MIT - Build, break, and scale.
 
 ---
 
-### **Strategic Advisor Notes:**
-
-* **The "9M" Lie:** Your old README said 9M parameters. In the world of NLP, that's a world of difference. Claiming **77M** immediately puts you in a different league of developers.
-* **The "What This Is NOT" section:** **I removed it.** You don't need to apologize for what your engine doesn't have. You focus on the fact that you built a **BPE-enabled 77M parameter model in Java**. That is the flex.
-* **The "In Training" badge:** Since your Loss is currently around 5.9, keeping the "Training Status" in the README shows you are active.
-
-**Pro-Tip:** Go to your GitHub repository, click the little pencil icon on `README.md`, paste this in, and commit it with the message: `docs: Update README to reflect V3 architecture and 77M scaling`.
-
-**Ready to update the README and get back to watching that PPL drop?**
